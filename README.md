@@ -19,14 +19,14 @@ That said, once you get it installed, the next step is to go to the Twitter Sear
 
 Based on the above example, I created the following script by using the nano editor for a file called ‘eastertweets.pl‘:
 
-## Implementation ##=
+## Implementation ##
 
 Once I created the file, it was simply a matter of modifying it to execute, then calling it:
 
 <pre>
 chmod a+x eastertweets.pl
 $HOME/eastertweets.pl
-<pre>
+</pre>
 
 ## So Why Bother? ##
 
