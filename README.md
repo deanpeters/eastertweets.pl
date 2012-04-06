@@ -6,15 +6,20 @@ http://healyourchurchwebsite.com/2011/02/26/using-perls-nettwitter-to-harvest-ke
 ## Introduction ##
 
 So you’ve decided to dive into social media marketing on behalf of your church and/or charitable organization.
+
 In fact, you’ve been wisely leveraging bit.ly with Twitter or ow.ly with HootSuite to track and measure your outbound links — but you find yourself in need a more ‘industrial strength‘ means of tracking who is saying what about your organization or an upcoming event.
+
 You also want to speed up your WordPress blog as it’s been gagging when your Twitter RSS feed goes all 503 on you because Ashton Kutcher tweeted about his toenail clippings.
 
 
 ## Recipe for Success ##
 
 As I mentioned in my post last Tuesday entitled ‘Strategy vs. Tactics and your Social Media Activities ,’ I’ve been playing around with some of the cool social networking tools one can find in the CPAN library.
+
 Today I want to provide a quick snippet on how to use the Net::Twitter to write a simple PERL program to harvest a search.
+
 To do this, it mean installing the Net::Twitter library. You’ll likely need root or sudo privileges to make this happen. If you don’t know what root or sudo means, then you’ll want to contact your hosting provider.
+
 That said, once you get it installed, the next step is to go to the Twitter Search page and create an advanced search. From the resulting query string should give you all the parameters you need, for example:
 
 Based on the above example, I created the following script by using the nano editor for a file called ‘eastertweets.pl‘:
@@ -41,5 +46,7 @@ Now this approach by itself is a lot of work for little return. However, here ar
 ## Epilogue ##
 
 The point is, once the data is captured, you can pretty much do anything you want with it programatically.
+
 For me, I’m thinking it might be fun to grab user IDs and feed their demographic information into some sort of analytics engine; or at least have some fun with Google Maps.
+
 Anyway, enjoy the example. If you expand on it, don’t forget to come back and provide a link. I’d be interested to see how this snippet evolves.
