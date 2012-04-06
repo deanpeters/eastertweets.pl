@@ -31,6 +31,7 @@ $HOME/eastertweets.pl
 ## So Why Bother? ##
 
 Now this approach by itself is a lot of work for little return. However, here are some things you might want to do with the sample above that would provide some big return value:
+
 * feed this into a SQL database history via Perl DBI;
 * create comma separated values and pipe it into a running log file;
 * aggregate the returns with other searches into a single RSS file on your server for both the sake of speed and feeding localized dashboards;
